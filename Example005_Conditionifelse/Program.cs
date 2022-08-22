@@ -1,9 +1,15 @@
 ﻿Console.Write("Insert user's name: ");
-string username = Console.ReadLine();
 
-if(username.ToLower() == "maria") 
+static string? GetUsername()
 {
-    Console. WriteLine("Hooray,it's Maria!");
+    return Console.ReadLine();
+}
+
+string username = GetUsername();
+
+if (username.ToLower() == "maria")
+{
+    Console.WriteLine("Hooray,it's Maria!");
 }
 else
 {
