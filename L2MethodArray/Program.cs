@@ -13,20 +13,20 @@
 // элемента так и нет, надо сообщить об этом.
 
 
-int[] array = {1, 12, 31, 4, 5, 16, 71, 18, 19};
+// int[] array = {1, 12, 31, 4, 5, 16, 71, 18, 19};
 
-int n = array.Length;   //вовращает длину или колличество элементов массива.
-int find = 71; //пользователь определяет число 
+// int n = array.Length;   //вовращает длину или колличество элементов массива.
+// int find = 71; //пользователь определяет число 
 
-int index =0;
-while (index < n)
-{
-    if(array[index] == find )
-    {
-        Console.WriteLine(index);
-    }
-    //index = index+1
-    index ++;
-}
+// int index =0;
+// while (index < n)
+// {
+//     if(array[index] == find )
+//     {
+//         Console.WriteLine(index);
+//     }
+//     //index = index+1
+//     index ++;
+// }
 
 

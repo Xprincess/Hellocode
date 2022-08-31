@@ -1,18 +1,18 @@
-﻿Console.Write("Insert user's name: ");
+﻿// Console.Write("Insert user's name: ");
 
-static string? GetUsername()
-{
-    return Console.ReadLine();
-}
+// static string? GetUsername()
+// {
+//     return Console.ReadLine();
+// }
 
-string username = GetUsername();
+// string username = GetUsername();
 
-if (username.ToLower() == "maria")
-{
-    Console.WriteLine("Hooray,it's Maria!");
-}
-else
-{
-    Console.Write("Hello, ");
-    Console.WriteLine(username);
-}
+// if (username.ToLower() == "maria")
+// {
+//     Console.WriteLine("Hooray,it's Maria!");
+// }
+// else
+// {
+//     Console.Write("Hello, ");
+//     Console.WriteLine(username);
+// }
